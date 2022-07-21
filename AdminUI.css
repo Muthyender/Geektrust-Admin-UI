@@ -1,0 +1,119 @@
+body
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container
+{
+    margin-top: 2rem;
+}
+
+.input
+{
+    text-align: center;
+}
+#search
+{
+    width: 45%;
+    height: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+#search::placeholder 
+{
+    opacity: 0.6;
+}
+
+#search:focus
+{
+    border: 1px solid cornflowerblue;
+    box-shadow: 0 0 5px cornflowerblue;
+    outline: cornflowerblue;
+}
+
+#search:hover
+{
+    border: 1px solid cornflowerblue;
+}
+
+.fa, .fa-solid, #select-all, .selection
+{
+    cursor: pointer;
+}
+
+.fa-search
+{
+    position: relative;
+    top: 1px;
+    padding: 8px 15px 9px;
+    background-color:rgb(100, 148, 237);
+    border-radius: 0 5px 5px 0;
+}
+
+.fa-search:hover
+{
+    background-color: rgba(100, 148, 237, 0.9);
+}
+
+.fa-solid
+{
+    margin: .5rem;
+}
+
+.fa-trash
+{
+    color: red;
+}
+
+.content
+{
+    margin: 1rem auto;
+}
+
+td, th
+{
+    width: 25vw;
+    padding: 10px 0;
+}
+
+table, tr, th, td
+{
+    text-align: center;
+    border: 1px solid rgba(211, 211, 211, 0.521);
+    border-collapse: collapse;
+}
+
+#heading
+{
+    background-color: lightgray;
+    font-size: larger;
+}
+
+.save
+{
+    cursor: pointer;
+}
+
+#no-data
+{
+    display: none;
+    text-align: center;
+}
+
+#delete-selected
+{
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background-color: red;
+    color: aliceblue;
+    font-size: large;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+

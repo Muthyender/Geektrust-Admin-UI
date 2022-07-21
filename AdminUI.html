@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin UI</title>
+    <link rel="stylesheet" href="AdminUI.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <input type="text" id="search" placeholder="Search by name, email or role" autocomplete="off"><i class="fa fa-search"></i>
+        </div>
+
+        <div class="content">
+            <table>
+                <thead id="heading">
+                    <th>
+                        <input type="checkbox" id="select-all">
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Email
+                    </th>
+                    <th>
+                        Role
+                    </th>
+                    <th>
+                        Actions
+                    </th>
+                </thead>
+
+                <tbody id="table-body">
+                </tbody>
+
+            </table>
+
+            <h1 id="no-data">
+                No data found
+            </h1>
+        </div>
+
+        <button id="delete-selected">Delete Selected</button>
+
+    </div>
+    <script src="AdminUI.js"></script>
+</body>
+</html>
