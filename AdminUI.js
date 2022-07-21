@@ -85,6 +85,7 @@ function setInfo(requiredData)
                 }
                 else
                 {
+                    selectAll.checked = false
                     newRow.style.backgroundColor = 'transparent'
                 }
             })
